@@ -60,7 +60,19 @@ You can deploy this bot anywhere.
 </details>
 
 <details>
-  [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/LkAma6?referralCode=Vg_6q5)
+  <summary><b>Deploy to Railway</b></summary>
+<br/>
+
+<p align="left">
+<a href="https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fjosprojects%2Ftgmoviebot"
+">
+     <img height="30px" src="https://railway.app/button.svg">
+  </a>
+</p>
+<a href="https://youtu.be/h6PtzFYaMxQ"><img src="https://img.shields.io/badge/How%20to%20Deploy%20on%20Railway-blue.svg?logo=Youtube"></a>
+<a href="https://youtu.be/h6PtzFYaMxQ"><img src="https://img.shields.io/youtube/views/h6PtzFYaMxQ?style=social">
+</a>
+</p>
   </a>
 </p>
 <a href="https://youtu.be/h6PtzFYaMxQ"><img src="https://img.shields.io/badge/How%20to%20Deploy%20on%20Railway-blue.svg?logo=Youtube"></a>
