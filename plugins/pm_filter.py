@@ -513,7 +513,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('⭕ Status', url='https://t.me/josprojects/221'),
+            InlineKeyboardButton('📺 CHANNEL', url='https://t.me/+L8SWfrF_7m04ODZl'),
             InlineKeyboardButton('🗿 Source', callback_data='source')
             ],[
             InlineKeyboardButton('❓ How to Use', callback_data='help')
@@ -938,11 +938,11 @@ async def auto_filter(client, msg, spoll=False):
         )
 
     btn.insert(0, [
-        InlineKeyboardButton("⭕️ Movie", url="https://t.me/+26XbUS8O3cM1MDU1"),
-        InlineKeyboardButton("Series ⭕️", url="https://t.me/+VWYQKLaIim4yNjk1")
+        InlineKeyboardButton("CHANNEL", url="https://t.me/+L8SWfrF_7m04ODZl"),
+        InlineKeyboardButton("MOVIES", url="https://t.me/+hC5tRAvQHHplMWQ1")
     ])
     btn.insert(0, [
-        InlineKeyboardButton("⭕️ Join Our Channel ⭕️",url="https://t.me/imdbprobots/4")
+        InlineKeyboardButton("⭕️ Follow On GitHub ⭕️",url="https://github.com/athulx80")
     ])
     reply_id = message.reply_to_message.message_id if message.reply_to_message else message.message_id
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
@@ -980,7 +980,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>🎬 Title:</b> {search}\n</b>\n<b><a href='https://t.me/+q9NMdy0rY10zZWZl'>© IMDb (Series & Movies) Studio</a></b>\n\n<b>✍️ Note:</b> <s>This message will be Auto-deleted after 10 hours to avoid copyright issues.</s>"
+        cap = f"<b>🎬 Title:</b> {search}\n</b>\n<b><a href='https://t.me/+L8SWfrF_7m04ODZl'>© MOVIES EMPIRE OFFICIAL</a></b>\n\n<b>⭕ Note:</b> <s>This message will be Auto-deleted after 10 hours to avoid ©️copyright issues.</s>"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_to_message_id=reply_id, reply_markup=InlineKeyboardMarkup(btn))
@@ -1050,13 +1050,13 @@ async def advantage_spell_chok(msg):
     if not movielist:
         button = InlineKeyboardMarkup(
         [[
-           InlineKeyboardButton("✅ Google ✅", url=f"https://www.google.com/search?q={search}")
+           InlineKeyboardButton("✅ Google", url=f"https://www.google.com/search?q={search}")
         ],
         [
            InlineKeyboardButton("⭕️ IMDb", url=f"https://www.imdb.com/find?q={search}"),
-           InlineKeyboardButton("Wikipedia ⭕️", url=f"https://en.m.wikipedia.org/w/index.php?search={search}")
+           InlineKeyboardButton("⭕ Wikipedia", url=f"https://en.m.wikipedia.org/w/index.php?search={search}")
         ]])
-        k = await msg.reply(f"Hey, Your word <b>{search}</b> is No Movie/Series Related to the Given Word Was Found 🥺\n\n<s>Please Go to Google and Confirm the Correct Spelling 🥺🙏</s>", reply_markup=button)
+        k = await msg.reply(f"Hey, Your word <b>{search}</b> is No Movie/Series Related to the Given Word Was Found 🥺\n\n<s>Please Go to Google and Confirm the Correct Spelling 🤝🏻</s>", reply_markup=button)
         await asyncio.sleep(60)
         await k.delete()
         return
