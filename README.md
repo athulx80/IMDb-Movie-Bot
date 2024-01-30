@@ -64,7 +64,7 @@ You can deploy this bot anywhere.
 <br/>
 
 <p align="left">
-<a href="https://railway.app/new/template?template=https://railway.app/template/LkAma6?referralCode=tyler-durdenx"
+<a href="https://railway.app/new/template?template=https://railway.app/template/iuC3y4?referralCode=tyler-durdenx"
 ">
      <img height="30px" src="https://railway.app/button.svg">
   </a>
