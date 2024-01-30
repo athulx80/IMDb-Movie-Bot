@@ -35,7 +35,7 @@ async def torrent(_, message):
         await m.edit("Found Nothing.")
         return
     result = (
-        f"**Page - {i+1}**\n\n"
+        f"**📄 Page - {i+1}**\n\n"
         f"**🎬 Name :** {a[i]['name']}\n"
         f"**🧲 Link :** `{a[i]['link']}`\n\n\n"
     )
@@ -63,7 +63,7 @@ async def callback_query_next(_, message):
     global query
     i += 1
     result = (
-        f"**Page - {i+1}**\n\n"
+        f"**📄 Page - {i+1}**\n\n"
         f"**🎬 Name :** {a[i]['name']}\n"
         f"**🧲 Link :** `{a[i]['link']}`\n\n\n"
     )
@@ -94,7 +94,7 @@ async def callback_query_previous(_, message):
     global query
     i -= 1
     result = (
-        f"**Page - {i+1}**\n\n"
+        f"**📄 Page - {i+1}**\n\n"
         f"**🎬 Name:** {a[i]['name']}\n"
         f"**🧲 Link:** `{a[i]['link']}`\n\n\n"
     )
