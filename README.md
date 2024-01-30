@@ -60,13 +60,7 @@ You can deploy this bot anywhere.
 </details>
 
 <details>
-  <summary><b>Deploy to Railway</b></summary>
-<br/>
-
-<p align="left">
-<a href="https://railway.app/template/LkAma6?referralCode=Vg_6q5"
-">
-     <img height="30px" src="https://railway.app/button.svg">
+  [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/LkAma6?referralCode=Vg_6q5)
   </a>
 </p>
 <a href="https://youtu.be/h6PtzFYaMxQ"><img src="https://img.shields.io/badge/How%20to%20Deploy%20on%20Railway-blue.svg?logo=Youtube"></a>
